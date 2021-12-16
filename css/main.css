@@ -1,0 +1,90 @@
+:root {
+    --font-size: 25px;
+    --color-default: #ffe4e4;
+    --green-color: #21EB00;
+    --black-color: #000;
+    --gray-color: #a8a4a4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: var(--font-size);
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #252525;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: var(--black-color);
+    margin: 20px auto;
+    color: var(--color-default);
+    width: 820px;
+    min-height: 480px;
+    border-radius: 5px;
+}
+
+#btnInicarContagem {
+    background: var(--green-color);
+    color: var(--black-color);
+    font-weight: 900;
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    min-width: 300px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+#btnInicarContagem:hover {
+    color: var(--gray-color);
+    font-size: 1.2rem;
+    transition-duration: 0.3s;
+}
+
+label {
+    margin: 14px;
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--gray-color);
+}
+
+input {
+    background-color: #262726;
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px 20px;
+    width: 320px;
+    height: 60px;
+    text-transform: uppercase;
+    color: var(--gray-color);
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+input:hover, input:focus {
+    outline: var(--green-color) inset;
+}
+
+.formData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px auto;
+}
+
+.formData h1{
+    color: var(--green-color);
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+}

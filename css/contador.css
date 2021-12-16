@@ -1,0 +1,88 @@
+.container {
+    background: #000;
+    margin: 0px 0px 0px 10px;
+    color: var(--color-default);
+    width: 900px;
+    min-height: 600px;
+    box-shadow: 0px 5px 5px rgb(7, 7, 7);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px auto;
+}
+
+#btnReiniciar {
+    background: var(--green-color);
+    color: #000;
+    font-weight: 600;
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px;
+    font-size: 0.85rem;
+    min-width: 140px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+#btnParar {
+    background: var(--green-color);
+    color: #000;
+    font-weight: 600;
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px;
+    font-size: 0.85rem;
+    min-width: 220px;
+    cursor: pointer;
+    margin-top: 70px;
+}
+
+.title{
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 15px;
+}
+
+.title p{
+    color: var(--green-color);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.container h2 {
+    font-size: 2.5rem;
+    color: #252525;
+    margin-bottom: 32px;
+}
+
+.time{
+    display: flex;
+    margin-left: 50px;
+}
+
+.times-temp{
+    margin-right: 60px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.times-temp p {
+    color: white;
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+    line-height: 89px;
+}
+
+.times-temp span{
+    color: var(--green-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
